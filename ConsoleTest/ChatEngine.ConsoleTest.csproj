@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ChatEngine.Core\ChatEngine.Core.csproj" />
     <ProjectReference Include="..\ChatEngine\ChatEngine.LLM.csproj" />
     <ProjectReference Include="..\Evaluator\ChatEngine.Evaluator.csproj" />
   </ItemGroup>

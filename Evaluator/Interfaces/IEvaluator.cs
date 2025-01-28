@@ -8,5 +8,6 @@ namespace ChatEngine.Evaluator.Interfaces
 {
     public interface IEvaluator
     {
+        public Task Evaluate(string prompt);
     }
 }

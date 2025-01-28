@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatEngine.LLM", "..\ChatEn
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatEngine.Evaluator", "..\Evaluator\ChatEngine.Evaluator.csproj", "{F8825861-597B-4323-BBEB-42F5759F8B87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatEngine.Core", "..\ChatEngine.Core\ChatEngine.Core.csproj", "{FBB8AD88-E9BF-4FE9-BB95-FDADE0FA2D15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatEngine.Core", "..\ChatEngine.Core\ChatEngine.Core.csproj", "{FBB8AD88-E9BF-4FE9-BB95-FDADE0FA2D15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatEngine.Memory", "..\ChatEngine.Memory\ChatEngine.Memory.csproj", "{EBC10ED8-42C9-498C-9B78-6A2F499DE460}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F776B72A-1A07-485F-92F9-732890B43565}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +37,16 @@ Global
 		{FBB8AD88-E9BF-4FE9-BB95-FDADE0FA2D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBB8AD88-E9BF-4FE9-BB95-FDADE0FA2D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBB8AD88-E9BF-4FE9-BB95-FDADE0FA2D15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBC10ED8-42C9-498C-9B78-6A2F499DE460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBC10ED8-42C9-498C-9B78-6A2F499DE460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBC10ED8-42C9-498C-9B78-6A2F499DE460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBC10ED8-42C9-498C-9B78-6A2F499DE460}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8DA94A16-6604-49A4-8651-7A2A58697024} = {F776B72A-1A07-485F-92F9-732890B43565}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4C8D645B-B024-4DA7-92B1-4189D38ED123}
